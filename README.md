@@ -1,10 +1,14 @@
-# TikTok Video Manager
+# TikTok Video Manager + YouTube Uploader API V3
 
-TikTok Video Manager is a Python-based tool that allows users to search, download, and manipulate TikTok videos. It provides functionalities such as adding text overlays, extracting audio, and adding background music to videos.
+TikTok Video Manager is a Python-based tool that allows users to search, download, and manipulate TikTok videos. It provides functionalities such as adding text overlays, extracting audio, and adding background music to videos, youtube upload videos.
+
+:money_with_wings: **Note:** Our project is a paid service. If you are interested in purchasing, please contact us at [tylngkhn@gmail.com](mailto:tylngkhn@gmail.com) for more details. :email:
+
 
 ![TIKTOKVIDEOMANAGER](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3oxdTVoMTYwbWtvZWhqZHZtanc4M3djY3RzYmdxamphNThncjN3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gD7oLtEq0F4p9L0A6h/giphy.gif)
 
-![Tiktok Manager Image](https://github.com/gkhantyln/TikTokVideoManager/blob/main/screen.png)
+![Tiktok Manager Image](https://github.com/gkhantyln/TikTokVideoManager/blob/main/screen1.png)
+
 
 ## Features
 
@@ -16,6 +20,7 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 - Add background music to videos
 - Save and load settings for text overlays
 - Save and load video links
+- YouTube Uploader API V3 ```(NEW)```
 
 ## MP4 Video Trimming Features
 - Precise Clipping: Trim specific segments of MP4 videos with high precision by defining exact start and end times.
@@ -23,6 +28,11 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 - Output Options: Save the trimmed video to a user-specified file path in MP4 format.
 - Audio Extraction: Optionally extract audio from the trimmed video and save it as an MP3 file.
 - Easy Integration: Simple interface for incorporating video trimming into larger workflows or applications.
+
+## For the YouTube uploader:
+-Prompt the user for the MP4 file path.
+-Ask for the title, description, and hashtags.
+-Request the date and time information for scheduled publishing.
 
 ## Requirements
 
@@ -35,6 +45,15 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
   - moviepy
   - numpy
 
+## Requirements Youtube Api
+- google-auth
+- google-auth-oauthlib
+- google-auth-httplib2
+- google-api-python-client
+
+## INSTALL Library
+```pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client```
+
 ## Installation
 
 1. Clone this repository: 
@@ -45,11 +64,12 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 ```pip install -r requirements.txt```
 
 
-
 ## Usage
 Run the main script: `python main.py`
 
 Follow the on-screen prompts to use various features of the TikTok Video Manager.
+
+![Tiktok Manager Image](https://github.com/gkhantyln/TikTokVideoManager/blob/main/screen2.png)
 
 ## Menu Options
 
@@ -63,11 +83,15 @@ Follow the on-screen prompts to use various features of the TikTok Video Manager
 8. Load Settings
 9. Save Links
 10. Load Links
+12. YouTube Uploader API V3 `(NEW)`
 11. Exit
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+:money_with_wings: **Note:** Our project is a paid service. If you are interested in purchasing, please contact us for more details. :email:
+
 
 ## License
 
