@@ -4,6 +4,8 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 
 :money_with_wings: **Note:** Our project is a paid service. If you are interested in purchasing, please contact us at [tylngkhn@gmail.com](mailto:tylngkhn@gmail.com) for more details. :email:
 
+⚠️ 12. YouTube Uploader (Classic) (NEW) added! ⚠️
+
 
 ![TIKTOKVIDEOMANAGER](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3oxdTVoMTYwbWtvZWhqZHZtanc4M3djY3RzYmdxamphNThncjN3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gD7oLtEq0F4p9L0A6h/giphy.gif)
 
@@ -21,6 +23,7 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 - Save and load settings for text overlays
 - Save and load video links
 - YouTube Uploader API V3 ```(NEW)```
+- YouTube Uploader Classic ```(NEW)```
 
 ## MP4 Video Trimming Features
 - Precise Clipping: Trim specific segments of MP4 videos with high precision by defining exact start and end times.
@@ -34,6 +37,7 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 -Ask for the title, description, and hashtags.
 -Request the date and time information for scheduled publishing.
 
+
 ## Requirements
 
 - Python 3.7+
@@ -44,6 +48,8 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
   - Pillow
   - moviepy
   - numpy
+  - ffmpeg
+  - playwright  `(NEW)` for classic upload youtube --headless or not 
 
 ## Requirements Youtube Api
 - google-auth
@@ -83,8 +89,9 @@ Follow the on-screen prompts to use various features of the TikTok Video Manager
 8. Load Settings
 9. Save Links
 10. Load Links
-12. YouTube Uploader API V3 `(NEW)`
-11. Exit
+11. YouTube Uploader API V3 `(NEW)`
+12. YouTube Uploader (Classic) `(NEW)`
+13. Exit
 
 ## Contributing
 
