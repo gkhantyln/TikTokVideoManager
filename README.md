@@ -1,4 +1,4 @@
-# TikTok Video Manager + YouTube Uploader API V3
+# TikTok Video Manager + YouTube Uploader API V3 or Classic Upload
 
 TikTok Video Manager is a Python-based tool that allows users to search, download, and manipulate TikTok videos. It provides functionalities such as adding text overlays, extracting audio, and adding background music to videos, youtube upload videos.
 
@@ -9,7 +9,7 @@ TikTok Video Manager is a Python-based tool that allows users to search, downloa
 
 ![TIKTOKVIDEOMANAGER](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3oxdTVoMTYwbWtvZWhqZHZtanc4M3djY3RzYmdxamphNThncjN3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gD7oLtEq0F4p9L0A6h/giphy.gif)
 
-![Tiktok Manager Image](https://github.com/gkhantyln/TikTokVideoManager/blob/main/screen1.png)
+![Tiktok Manager Image](https://github.com/gkhantyln/TikTokVideoManager/blob/main/screen_menu.png)
 
 
 ## Features
